@@ -108,7 +108,7 @@ install_XrayR() {
         fi
     else
         last_version=$1
-        url="http://114.115.246.21:8888/down/gFtbJPVm96GN"
+        url="http://101.34.239.77:29391/down/jO5U4T1nD2TZ.zip"
         echo -e "开始安装 XrayR v$1"
         wget -N --no-check-certificate -O /usr/local/XrayR/XrayR-linux-64.zip ${url}
         if [[ $? -ne 0 ]]; then
